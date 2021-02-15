@@ -1,10 +1,113 @@
 /* Variables */
 
-$font-main: 'Raleway', sans-serif;
+$font-main: 'Roboto', sans-serif;
+$font-two: 'Great Vibes', cursive; /* Golden */
+$font-three: 'Lora', serif; 
+$color-one: #fed136;  /* yellow */
+$color-two: #f7f7f7;  /* v.light grey */
+
 
 
 /* Global */
 
 *, *::before, *::after {
 	box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: $font-main;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+.container-fluid {
+    color: #fff;
+    background-image: url(https://i.postimg.cc/Tw2C8cNY/header-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.name {
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: $color-one;
+    font-family: $font-two;
+    padding: 0 0 0 200px;
+    letter-spacing: 4px;
+    
+}
+.list-group {
+    margin-top: 25px;
+}
+.list-group > li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 25px;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+.navbar a:hover p {
+    color: $color-one;
+}
+
+    /* inside list */
+
+.inside-list {
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0;
+    background-color: rgba(89, 89, 89, 0.3);
+}
+
+.inside-list li {
+    display: none;
+    text-align: left;
+    padding: 0 25px;
+}
+
+.list-group > li:hover .inside-list li {
+    display: block;
+}
+.splash {
+    text-align: center;
+    align-items: center;
+}
+.splash h2 {
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: $font-three;
+    font-weight: 400;
+    padding: 100px 0 0;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.splash h1 {
+    font-size: 4.5rem;
+    text-transform: uppercase;
+    margin: 0 0 30px;
+    letter-spacing: 3px;
+}
+.btn {
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 1px;
+    font-family: $font-main;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    background-color: $color-one;
 }
