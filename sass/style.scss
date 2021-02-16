@@ -142,14 +142,15 @@ header{
     text-align: center;
     font-style: italic;
     font-size: 0.9rem;
-    margin: 0.55rem;
+    margin: 0.55rem auto 2.4rem;
     letter-spacing: 0.06rem;
 }
 .column {
     text-align: center;
-    padding: 30px;
-    margin: 32px auto;
-    
+    margin: 30px 15px;
+    background-color: #fff;
+    padding: 0;
+    max-width: 288px;
 }
 .column i {
     color: $color-one;
@@ -165,8 +166,24 @@ header{
     font-weight: 700;
     color: #000;
     font-size: 1.15rem;
-    margin: 25px auto 14px;
+    margin: 25px auto 0;
 }
 .column p {
     line-height: 1.5;
+    margin-top: 14px;
 }
+/* Portfolio */
+.portfolio {
+    background-color: $color-two;
+}
+.column-subtitle {
+    font-family: $font-three;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0 0 20px;
+    letter-spacing: 0.06rem;
+    line-height: 1.2;
+}
+
