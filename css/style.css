@@ -20,39 +20,50 @@ body {
 }
 
 .container {
-  height: 100vh;
   max-width: 1000px;
 }
 
 /* Header */
 header {
+  height: 100vh;
   color: #fff;
   background-image: url(https://i.postimg.cc/Tw2C8cNY/header-bg.jpg);
   background-size: cover;
-  background-position: center center;
   background-attachment: fixed;
 }
 
 .name {
   font-weight: 600;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 2px;
   color: #fed136;
   font-family: "Great Vibes", cursive;
-  padding: 0 0 0 100px;
+  padding: 0 0 0 42px;
   letter-spacing: 4px;
+  margin-top: 35px;
 }
 
 .list-group {
-  margin-top: 25px;
+  margin-top: 35px;
+  padding: 0;
+  text-align: left;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
 }
 
 .list-group > li {
+  font-size: 0.9rem;
   display: inline-block;
   list-style-type: none;
-  padding: 0 15px;
-  letter-spacing: 2px;
+  padding: 0 10px;
+  letter-spacing: 1px;
   position: relative;
+}
+
+.navbar {
+  padding: 0;
 }
 
 .navbar a {
@@ -86,8 +97,6 @@ header {
 
 .splash {
   text-align: center;
-  -ms-flex-align: center;
-      align-items: center;
 }
 
 .splash h2 {
@@ -95,9 +104,9 @@ header {
   font-style: italic;
   font-family: "Lora", serif;
   font-weight: 400;
-  padding: 100px 0 0;
+  padding: 0;
   text-transform: capitalize;
-  margin-bottom: 7px;
+  margin: 170px auto 25px;
 }
 
 .splash h1 {
@@ -108,8 +117,8 @@ header {
   padding-bottom: 10px;
 }
 
-.btn {
-  margin: 40px auto 0 auto;
+.button {
+  margin: 50px auto 0 auto;
   padding: 19px 50px;
   border-radius: 4px;
   font-family: "Roboto", sans-serif;
@@ -117,10 +126,9 @@ header {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #fed136;
   background-color: #fed136;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 /* Section Services */
@@ -144,8 +152,8 @@ header {
 
 .column {
   text-align: center;
-  padding: 35px;
-  margin: 27px auto;
+  padding: 30px;
+  margin: 32px auto;
 }
 
 .column i {
@@ -163,5 +171,10 @@ header {
   font-weight: 700;
   color: #000;
   font-size: 1.15rem;
+  margin: 25px auto 14px;
+}
+
+.column p {
+  line-height: 1.5;
 }
 /*# sourceMappingURL=style.css.map */
