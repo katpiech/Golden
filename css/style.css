@@ -21,6 +21,7 @@ body {
 
 .container {
   height: 100vh;
+  max-width: 1000px;
 }
 
 /* Header */
@@ -144,7 +145,7 @@ header {
 .column {
   text-align: center;
   padding: 35px;
-  margin: 60px auto;
+  margin: 27px auto;
 }
 
 .column i {
