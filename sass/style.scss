@@ -143,3 +143,13 @@ header{
     margin: 60px auto;
     
 }
+.column i {
+    color: $color-one;
+    font-size: 32px;
+    background: inherit;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border: 2px solid $color-one;
+    border-radius: 50%;
+}

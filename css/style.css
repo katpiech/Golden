@@ -146,4 +146,15 @@ header {
   padding: 35px;
   margin: 60px auto;
 }
+
+.column i {
+  color: #fed136;
+  font-size: 32px;
+  background: inherit;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  border: 2px solid #fed136;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=style.css.map */
