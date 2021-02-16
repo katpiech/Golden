@@ -23,13 +23,16 @@ body {
   text-align: left;
   background-color: #fff;
 }
-.container-fluid {
-    color: #fff;
+header{
     background-image: url(https://i.postimg.cc/Tw2C8cNY/header-bg.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     height: 100vh;
+    
+}
+.container {
+    color: #fff;
 }
 .name {
     font-weight: 600;
@@ -37,17 +40,18 @@ body {
     letter-spacing: 2px;
     color: $color-one;
     font-family: $font-two;
-    padding: 0 0 0 200px;
+    padding: 0 0 0 100px;
     letter-spacing: 4px;
     
 }
 .list-group {
     margin-top: 25px;
+    font-size: 13px;
 }
 .list-group > li {
     display: inline-block;
     list-style-type: none;
-    padding: 0 25px;
+    padding: 0 15px;
     letter-spacing: 2px;
     position: relative;
 }
@@ -100,9 +104,9 @@ body {
     letter-spacing: 3px;
 }
 .btn {
-    margin: 24px auto 0 auto;
+    margin: 40px auto 0 auto;
     padding: 16px;
-    border-radius: 1px;
+    border-radius: 2px;
     font-family: $font-main;
     font-size: 16px;
     text-align: center;
@@ -110,4 +114,6 @@ body {
     cursor: pointer;
     border:none;
     background-color: $color-one;
+    text-transform: uppercase;
+    font-weight: 500;
 }
