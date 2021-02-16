@@ -140,4 +140,10 @@ header {
   margin: 0.55rem;
   letter-spacing: 0.06rem;
 }
+
+.column {
+  text-align: center;
+  padding: 35px;
+  margin: 60px auto;
+}
 /*# sourceMappingURL=style.css.map */
