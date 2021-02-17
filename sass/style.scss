@@ -221,3 +221,55 @@ footer .column {
 footer p {
     font-weight: 500;
 }
+/* Media */
+@media (max-width: 767px) {
+    .name {
+        font-size: 20px;
+        padding: 0;
+        margin: 20px auto 5px;
+    }
+    .list-group {
+        margin-top: 0;
+    }
+    .list-group > li {
+        font-size: 0.7rem;
+    }
+    .splash h2 {
+        font-size: 1.5rem;
+        margin: 25px auto 15px;
+    }
+    .splash h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin: 0 0 30px;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+    }
+    .button {
+        margin: 20px auto 0 auto;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .services .column {
+        margin: 30px 15px 0px;
+    }
+    .services .column:last-child {
+        margin: 30px 15px 50px;
+    }
+    .section-title {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin: 50px auto 0;
+    }
+    
+    footer .column {
+        max-height: 1.5rem;
+        margin: 15px;
+    }
+    footer {
+        padding: 0.5rem 0;
+    }
+    .portfolio {
+        padding-bottom: 2rem;
+    }
+}
