@@ -27,6 +27,13 @@ body {
 .container {
     max-width: 1000px;
 }
+.column {
+    text-align: center;
+    margin: 30px 15px;
+    background-color: #fff;
+    padding: 0;
+    max-width: 288px;
+}
 /* Header */
 header{
     height: 100vh;
@@ -129,6 +136,9 @@ header{
 }
 /* Section Services */
 
+.services .column {
+    margin: 30px 15px 100px;
+}
 .section-title {
     color: #000;
     font-size: 2.3rem;
@@ -144,13 +154,6 @@ header{
     font-size: 0.9rem;
     margin: 0.55rem auto 2.4rem;
     letter-spacing: 0.06rem;
-}
-.column {
-    text-align: center;
-    margin: 30px 15px;
-    background-color: #fff;
-    padding: 0;
-    max-width: 288px;
 }
 .services i {
     color: $color-one;
