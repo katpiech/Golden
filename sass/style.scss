@@ -152,7 +152,7 @@ header{
     padding: 0;
     max-width: 288px;
 }
-.column i {
+.services i {
     color: $color-one;
     font-size: 32px;
     background: inherit;
@@ -175,6 +175,7 @@ header{
 /* Portfolio */
 .portfolio {
     background-color: $color-two;
+    padding-bottom: 5.7rem;
 }
 .column-subtitle {
     font-family: $font-three;
@@ -186,4 +187,33 @@ header{
     letter-spacing: 0.06rem;
     line-height: 1.2;
 }
-
+/* Footer */
+footer {
+    padding: 1.2rem 0;
+}
+footer .column {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-height: 2.25rem;
+}
+.social-link {
+    max-height: 2.25rem;
+    margin: 0 0.5rem;
+}
+.social-link a {
+    font-size: 0;
+}
+.social-link i {
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #000;
+    width: 2.25rem;
+    height: 2.25rem;
+    line-height: 2.25rem;
+    border-radius: 50%;
+}
+footer p {
+    font-weight: 500;
+}
